@@ -6,12 +6,12 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 from data_page import run_recommender_1,check_availability
 
-def load_data():
-    with open('saved_model.pk1','rb') as file:
-        data=pickle.load(file)
-    return data
+# def load_data():
+#     with open('saved_model.pk1','rb') as file:
+#         data=pickle.load(file)
+#     return data
 
-data=load_data()
+# data=load_data()
 
 # cv_loaded=data['cv']
 # cm=data['count_matrix']
